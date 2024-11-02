@@ -279,7 +279,8 @@
                     
                     
                     {{-- BEVERAGE  --}}
-
+   
+                    <div id="drinks">
                     <header>
                         <div class="headerImg ">
                             
@@ -294,7 +295,7 @@
                 
                     
                     
-                    <div id="drinks">
+                
                     <h2 class="mt-5">Yanai BEVERAGE</h2>
                     
                     <div class="menu-section mb-5">
