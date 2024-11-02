@@ -14,8 +14,12 @@
 
 
 
+
+
+
+
 .bi-instagram{
-    color: black;
+    color:  rgb(195, 99, 100);
     padding: 15px 32px; /* Spaziatura interna */
     text-align: center; /* Testo centrato */
     text-decoration: none; /* Nessuna sottolineatura */
@@ -27,10 +31,23 @@
     transition: transform 0.2s; 
 }
 
+.bi-instagram:hover{
+    transform: scale(1.2);
+    color: black;
+}
+
 
 h1{
     font-size: 50px;
     letter-spacing: 8px;
+    font-family: "unica one", sans-serif;
+  
+    
+}
+
+.titolo{
+    font-size: 50px;
+    letter-spacing: 1px;
     font-family: "unica one", sans-serif;
   
     
@@ -100,6 +117,8 @@ h4{
 
 
 .imgHeader3{
+    max-width: 100%; /* Rende l'immagine responsiva */
+    height: auto;
     
     background-size: cover;
     background-position: center;
@@ -109,6 +128,21 @@ h4{
 }
     
 
+.imgHeader4{
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+     
+
+}
+
+
+
+
 
 
 
@@ -143,6 +177,35 @@ h4{
     
 }
 
+@media (max-width: 1200px) {
+    .imgHeader2 {
+        height: 700px; /* Adjust height for medium-sized screens */
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .imgHeader2 {
+        height: 600px; /* Adjust height for smaller screens */
+    }
+}
+    
+
+@media (max-width: 768px) {
+    .imgHeader2 {
+        height: 500px; /* Adjust height for mobile screens */
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .imgHeader2 {
+        height: 200px; /* Adjust height for very small screens */
+    }
+
+    
+}
+
 
 
 @media (max-width: 1200px) {
@@ -161,17 +224,45 @@ h4{
 
 @media (max-width: 768px) {
     .imgHeader3 {
-        height: 500px; /* Adjust height for mobile screens */
+        height: 300px; /* Adjust height for mobile screens */
     }
     
 }
 
 @media (max-width: 576px) {
-    .imgHeader3 {
+    .imgHeader4 {
         height: 400px; /* Adjust height for very small screens */
     }
 
     
+    @media (max-width: 1200px) {
+        .imgHeader4 {
+            height: 700px; /* Adjust height for medium-sized screens */
+        }
+       
+    }
+    
+    @media (max-width: 992px) {
+        .imgHeader4 {
+            height: 600px; /* Adjust height for smaller screens */
+        }
+    }
+        
+    
+    @media (max-width: 768px) {
+        .imgHeader4 {
+            height: 500px; /* Adjust height for mobile screens */
+        }
+        
+    }
+    
+    @media (max-width: 576px) {
+        .imgHeader4 {
+            height: 300px; /* Adjust height for very small screens */
+        }
+    
+        
+    }
 }
 
 /* sezione menu kitchen */
@@ -216,7 +307,63 @@ h1 {
 }
 
 
-/* sezione menu sushi  */
+.menu-item h4 {
+    margin: 5px 0;
+    color: black;
+}
+
+.menu-item2 h4 {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+@media (max-width: 600px) {
+    .menu h1 {
+        font-size: 22px; /* Dimensione più piccola per dispositivi piccoli */
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-item2 h4 {
+        font-size: 12px; /* Dimensione più piccola per dispositivi piccoli */
+    }
+}
+/* sezione menu bevande  */
+
+
+.beverage-menu {
+    text-align: center; /* Centra il titolo */
+    margin: 20px 0;
+}
+
+.beverage-category {
+    margin: 20px 0; /* Margine per la categoria */
+}
+
+.beverage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Due colonne uguali */
+    gap: 20px; /* Spazio tra le righe */
+    padding: 10px;
+    max-width: 800px; /* Larghezza massima per centrare il contenuto */
+    margin: 0 auto; /* Centra il grid */
+}
+
+.beverage-item h4 {
+    margin: 0; /* Rimuove il margine per il titolo */
+}
+
+.beverage-item p {
+    margin: 0; /* Rimuove il margine per il costo */
+    color: black; /* Colore per il prezzo */
+}
+
+.beverage-item2 h4 {
+    margin: 0; /* Rimuove il margine per il titolo */
+    color: #7f8c8d;
+}
+
+
 
 
 
@@ -241,3 +388,11 @@ h1 {
     border-radius: 8px; /* Angoli arrotondati */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
 }
+
+
+/* beverage img  */
+
+
+
+
+
