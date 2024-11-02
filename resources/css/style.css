@@ -1,0 +1,243 @@
+.colorNav{ 
+    
+    background-color: white;
+    
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-weight: light;
+    font-size: 20px;
+    font-family: "unica one", sans-serif;
+    
+
+}
+
+
+
+.bi-instagram{
+    color: black;
+    padding: 15px 32px; /* Spaziatura interna */
+    text-align: center; /* Testo centrato */
+    text-decoration: none; /* Nessuna sottolineatura */
+    display: inline-block; /* Visualizzazione inline-block */
+    font-size: 20px; /* Dimensione del testo */
+    margin: 4px 2px; /* Margine */
+    cursor: finger; /* Puntatore del mouse */
+    border-radius: 12px; /* Angoli arrotondati */
+    transition: transform 0.2s; 
+}
+
+
+h1{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-family: "unica one", sans-serif;
+  
+    
+}
+
+.nero{
+text-shadow: black 3px 0 8px;
+}
+
+h3, h5, h6{
+font-family: "unica one", sans-serif;
+font-style: oblique;
+
+
+}
+
+h2{
+font-family: "unica one", sans-serif;
+font-weight: 400;
+font-style: oblique;
+color: black;
+}
+
+h4{
+    font-family: "unica one", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+  }
+
+
+  .menu{
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-family: "unica one", sans-serif;
+    font-weight: light;
+    
+}
+
+  .imgHeader{
+    height: 845px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+    
+   
+    
+
+}
+
+
+.imgHeader2{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+
+
+.imgHeader3{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+    
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .imgHeader {
+        height: 700px; /* Adjust height for medium-sized screens */
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .imgHeader {
+        height: 600px; /* Adjust height for smaller screens */
+    }
+}
+    
+
+@media (max-width: 768px) {
+    .imgHeader {
+        height: 500px; /* Adjust height for mobile screens */
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .imgHeader {
+        height: 400px; /* Adjust height for very small screens */
+    }
+
+    
+}
+
+
+
+@media (max-width: 1200px) {
+    .imgHeader3 {
+        height: 700px; /* Adjust height for medium-sized screens */
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .imgHeader3 {
+        height: 600px; /* Adjust height for smaller screens */
+    }
+}
+    
+
+@media (max-width: 768px) {
+    .imgHeader3 {
+        height: 500px; /* Adjust height for mobile screens */
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .imgHeader3 {
+        height: 400px; /* Adjust height for very small screens */
+    }
+
+    
+}
+
+/* sezione menu kitchen */
+
+body {
+    font-family:"unica one", sans-serif; ;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Centrato */
+}
+h1 {
+    color: #2c3e50;
+}
+.menu-section {
+    margin: 20px 0;
+}
+.category {
+    margin: 30px 0;
+}
+.category img {
+    width: 50px; /* Dimensione dell'immagine */
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px; /* Centrato */
+}
+.menu-item {
+ 
+    padding: 10px 0;
+}
+.menu-item h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.menu-item p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+.price {
+    font-weight: bold;
+}
+
+
+/* sezione menu sushi  */
+
+
+
+
+ /* sezione galleria  */
+
+ .gallery {
+    text-align: center; /* Centra il titolo */
+    margin: 20px 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonne */
+    gap: 15px; /* Spazio tra le immagini */
+    padding: 10px;
+}
+
+.gallery-item img {
+    width: 100%; /* Rende l'immagine responsiva */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
