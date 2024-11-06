@@ -390,9 +390,23 @@ h1 {
 }
 
 
-/* beverage img  */
 
 
 
 
 
+
+/* Modifica la posizione del bottone dell'hamburger */
+.navbar-toggler {
+    position: absolute;
+    top: 30px; /* Regola la posizione verticale */
+    right: 20px; /* Distanza da destra, regolato per allontanarla dalla parte destra */
+  }
+  
+  /* Media query per dispositivi molto piccoli (ad esempio, schermi con larghezza <= 576px) */
+  @media (max-width: 576px) {
+    .navbar-toggler {
+      right: 20px; /* Spostamento leggermente più a sinistra */
+    }
+  }
+  

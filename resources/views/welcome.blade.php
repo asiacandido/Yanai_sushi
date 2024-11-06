@@ -129,7 +129,7 @@
         <header>
             <div class="headerImg ">
                 <div class="overlay"></div>
-                <img src="/img/pesce.JPG" alt="" class="imgHeader3">
+                <img src="/img/pesce2.jpg" alt="" class="imgHeader3">
                 
                 
             </div>
