@@ -83,7 +83,7 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
             <div id="contact">
-            <h6 class="text-uppercase fw-bold mb-4 text-center testoFooter">Contact Us</h6>
+            <h6 class="text-uppercase fw-bold mb-4 text-center testoFooter">Contact Us For Reservation</h6>
             </div>
           
               <i class="fas fa-envelope text-center"></i>

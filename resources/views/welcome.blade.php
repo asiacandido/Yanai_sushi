@@ -11,7 +11,7 @@
     <header>
         <div class="headerImg">
            
-            <img src="/img/sfondo1.webp" alt="" class="imgHeader"> 
+            <img src="/img/sfondo_original.jpg" alt="" class="imgHeader"> 
         </div>
         
         
@@ -24,7 +24,7 @@
     
     
     
-    <div class="text-center mt-5 menu"><h1 class="titolo">Contemporary Japanese Cousine</h1></div>
+    <div class="text-center mt-5 menu"><h1 class="titolo">Contemporary Japanese Cuisine</h1></div>
     <div class="text-center mt-0 mb-5 menu-item2"><h4>where tradition meets innovation in every dish</h4></div>
     <div id="menu">
         
@@ -33,7 +33,7 @@
         <header>
             <div class="headerImg ">
                 <div class="overlay"></div>
-                <img src="/img/sfondo2.webp" alt="" class="imgHeader2">
+                <img src="/img/pesce_real.jpg" alt="" class="imgHeader2">
                 
                 
             </div>
@@ -313,7 +313,7 @@
                                 <p>SENCHA <span class="price">50k</span>  </p>
                                 <p>GENMAICHA <span class="price">40k</span>  </p>
                                 <p>SOBACHA <span class="price">35k</span>  </p>
-                                <p>HOUSE’S LEMONADE<span class="price">35k</span>  </p>
+                                <p>HOUSE’S LEMONADE <span class="price">35k</span>  </p>
                             </div>
                             
                             <div class="menu-item mt-5 ">
