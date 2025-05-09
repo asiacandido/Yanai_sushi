@@ -20,10 +20,10 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#gallery">gallery</a>
+          <a class="nav-link" href="#gallery">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contacts">contacts</a>
+          <a class="nav-link" href="#contacts">Contacts</a>
         </li>
       </ul>
 

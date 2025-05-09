@@ -1,22 +1,15 @@
 .colorNav{ 
     
     background-color: white;
-    
     padding: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
     font-weight: light;
     font-size: 20px;
-    font-family: "unica one", sans-serif;
+    font-family: "Unica one", sans-serif;
     
-    
-
-
 
 }
-
-
-
 
 
 
@@ -43,15 +36,15 @@
 h1{
     font-size: 50px;
     letter-spacing: 8px;
-    font-family: "unica one", sans-serif;
-  
+    font-family: "Unica one", sans-serif;
+    
     
 }
 
 .titolo{
     font-size: 50px;
     letter-spacing: 1px;
-    font-family: "unica one", sans-serif;
+    font-family: "Unica one", sans-serif;
   
     
 }
@@ -61,21 +54,21 @@ text-shadow: black 3px 0 8px;
 }
 
 h3, h5, h6{
-font-family: "unica one", sans-serif;
+font-family: "Unica one", sans-serif;
 /* font-style: oblique; */
 
 
 }
 
 h2{
-font-family: "unica one", sans-serif;
+font-family: "Unica one", sans-serif;
 font-weight: 400;
 
 color: black;
 }
 
 h4{
-    font-family: "unica one", sans-serif;
+    font-family: "Unica one", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 23px;
@@ -85,7 +78,7 @@ h4{
   .menu{
     font-size: 30px;
     letter-spacing: 0px;
-    font-family: "unica one", sans-serif;
+    font-family: "Unica one", sans-serif;
     font-weight: light;
     
 }
