@@ -1,3 +1,6 @@
+
+<body>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-0">
   <div class="container-fluid colorNav p-0 mb-0">
     
@@ -40,3 +43,7 @@
     </div>
   </div>
 </nav>
+
+
+  
+</body>
