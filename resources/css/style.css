@@ -11,7 +11,9 @@
 
 }
 
-
+body {
+    padding-top: 120px; /* Aggiungi uno spazio sopra il contenuto uguale all'altezza della navbar */
+}
 
 
 .bi-instagram{
