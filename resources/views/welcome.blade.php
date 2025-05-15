@@ -11,7 +11,7 @@
     <header>
         <div class="headerImg">
            
-            <img src="/img/sfondo_original.jpg" alt="" class="imgHeader"> 
+            <img src="/img/sfondo_iniziale.jpg" alt="" class="imgHeader"> 
         </div>
         
         
